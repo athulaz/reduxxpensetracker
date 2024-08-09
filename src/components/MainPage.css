@@ -1,0 +1,74 @@
+.main-container {
+    padding: 40px;
+    background-color: #c2d1d4;
+    max-width: 800px;
+    margin: 60px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-container h2 {
+    margin-bottom: 20px;
+    color: #0f141a;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input[type="date"] {
+    padding: 9px; /* Adjust padding for date input */
+  }
+  
+  button {
+    background-color: #131515;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10PX;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #333638;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #909093;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #282a28;
+    color: rgb(201, 194, 194);
+  }
+  
+ 
+  

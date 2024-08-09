@@ -1,0 +1,10 @@
+/* src/App.css */
+.app-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #a7b4b4;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
