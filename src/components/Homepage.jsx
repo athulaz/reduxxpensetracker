@@ -11,7 +11,7 @@ const HomePage = () => {
 
   return (
     <div className="home-container">
-      <h1>Welcome to Xpense Tracker</h1>
+      <h3>Welcome to Xpense Tracker</h3>
       <button onClick={handleGetStarted}>Let's Get Started</button>
     </div>
   );
