@@ -4,11 +4,9 @@ import AddExpenseForm from './AddExpenseForm';
 import './MainPage.css';  
 import { useNavigate } from 'react-router-dom';
 const MainPage = () => {
-  const navigate = useNavigate();
+ 
 
-  const handleHome = () => {
-    navigate('/');
-  };
+
 
   
   return (
@@ -17,7 +15,7 @@ const MainPage = () => {
     
       <AddExpenseForm />
       <ExpenseTable />
-      <button onClick={handleHome}>Back to Home</button>
+     
     </div>
   );
 };
